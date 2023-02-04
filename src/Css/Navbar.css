@@ -1,0 +1,42 @@
+.navbar{
+    float: left;
+    width: 100%;
+    background-color: #111418;
+
+}
+.navbar .icon {
+    display: none;
+  }
+@media screen and (max-width: 800px) {
+    .navbar a {display: none;}
+    .navbar .icon {
+    
+      display: block;
+    }
+    .navbar h5{
+        display: none;
+    }
+    .navbar{
+       
+        float: none;
+        max-width: 100%;
+        width: 100%;
+        height:30px;
+       
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .navbar .responsive {position: relative;}
+    .navbar .responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .navbar .responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
