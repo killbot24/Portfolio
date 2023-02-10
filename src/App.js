@@ -5,7 +5,7 @@ import Navbar from './Components/Nabvar';
 import Top from './Components/Top';
 import AboutMe from './Components/AboutMe';
 import Skills from './Components/Skills';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App" class="bg-base-site min-h-screen">
