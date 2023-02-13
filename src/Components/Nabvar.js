@@ -28,10 +28,7 @@ function Navbar() {
 
 );
 
-function hamburger() {
-  var x = document.getElementById("navbar");
-  alert("You stink");
-}
+
 }
 
 export default Navbar; // Don�t forget to use export default!
