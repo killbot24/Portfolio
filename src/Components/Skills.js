@@ -1,5 +1,5 @@
 import React, { Component, useState } from 'react';
-import ProgrammingLan from './Modals/ProgrammingLan';
+
 
 
 function Skills() { 
@@ -12,25 +12,25 @@ function Skills() {
         <h1 class="text-center text-lg">What I do.</h1>
         <div class="flex justify-evenly gap-2 ">
              {/* Rename these later to something more correct */}
-        <div class="What1 bg-zinc-800 rounded shadow-lg w-1/3">
-            <img class="h-auto " src="/img/code.svg"></img>
+        <div class="What1 bg-zinc-800 rounded shadow-lg w-fit">
+            <img class="h-auto w-48" src="coding-svgrepo-com.svg"></img>
             
         </div>
 
-        <div class="What1 bg-zinc-800 rounded shadow-lg  w-1/3">
-            <img class="h-auto " src="https://cdn-icons-png.flaticon.com/512/6062/6062646.png"></img>
+        <div class="What1 bg-zinc-800 rounded shadow-lg  w-fit">
+            <img class="h-auto w-48" src="https://cdn-icons-png.flaticon.com/512/6062/6062646.png"></img>
             
             
         </div>
 
-        <div class="What1 bg-zinc-800 rounded shadow-lg w-1/3 ">
-            <img></img>
-            <p>tt</p>
+        <div class="What1 bg-zinc-800 rounded shadow-lg w-fit ">
+            <img class="h-auto w-48" src="game.svg"></img>
             
         </div>
         </div>
+        
         <h1 class="text-center bg-blue-600  mt-5">Skills</h1>
-         {/* This is only visable on large screens */}
+        
         <div class="Skill_Showcase bg-zinc-900 max-w-full w-full 2xl:flex">  
 
         <div class="Programing  mx-auto 2xl:w-1/4 py-5 px-5 my-5 rounded">
@@ -57,7 +57,7 @@ function Skills() {
         </div>
 
         </div>
-         {/* This is only visable on phones tablets */}
+         
          
         
         </div>
