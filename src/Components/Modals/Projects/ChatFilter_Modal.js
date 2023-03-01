@@ -5,12 +5,12 @@ function ChatFilter_Modal() {
  return (
     <div>
     
-    <button data-modal-target="defaultModal" data-modal-toggle="defaultModal" className='bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded' type="button">
+    <button data-modal-target="ChatFilterModal" data-modal-toggle="ChatFilterModal" className='bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded' type="button">
       Show More
     </button>
     
  
-    <div id="defaultModal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full">
+    <div id="ChatFilterModal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full">
         <div class="relative w-full h-full max-w-2xl md:h-auto">
             
             <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
@@ -27,16 +27,15 @@ function ChatFilter_Modal() {
                 
                 <div class="p-6 space-y-6">
                     <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                        This project was developed in ATU as a project for a class called data repsation. My goal was to build a working shop Website built in react. 
+                        Developed  for dapper fox group. This is a plugin for 1.7.10-1.16.5 (Tested versions) Spigot/ Paper in minecraft.
                     </p>
                     <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                        It has the ablity to Add new items, Update current ones, Remove one item at a time for the customer. The changestock and add item is locked behind a login. 
-                        Unfortalty i am unable to get this hosted but it is avaiable on github.
+                        This plugin automates chat moderation. 
                     </p>
                 </div>
                 
                 <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
-                    <button data-modal-hide="defaultModal" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Close</button>
+                    <button data-modal-hide="ChatFilterModal" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Close</button>
                  </div>
             </div>
         </div>
