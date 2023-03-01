@@ -5,10 +5,10 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'About', href: '#', current: false },
-  { name: 'Skills', href: '#', current: false },
-  { name: 'Portfolio', href: '#', current: false },
+  { name: 'Home', href: '#Home', current: true },
+  { name: 'About', href: '#AboutMe', current: false },
+  { name: 'Skills', href: '#Skills', current: false },
+  { name: 'Portfolio', href: '#Portfolio', current: false },
 ]
 
 function classNames(...classes) {
@@ -47,6 +47,7 @@ function Navbar() {
                       <a
                         key={item.name}
                         href={item.href}
+                        
                         className={classNames(
                           item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
@@ -57,6 +58,14 @@ function Navbar() {
                       </a>
                     ))}
                   </div>
+                </div>
+                <div className=' ml-auto hidden   lg:flex'>
+                <a href='https://github.com/killbot24'>  
+                   <img src="Github.svg" className='w-10'></img>
+                    </a>
+                <a href='https://www.linkedin.com/in/thomas-burke-277a1b224/'>  
+                   <img src="linkedin.svg" className='w-10'></img>
+                    </a>
                 </div>
               </div>
               

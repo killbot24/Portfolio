@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-function Unamed() { 
+function Unamed_Modal() { 
   
  return (
     <div>
@@ -47,4 +47,4 @@ function Unamed() {
 
 }
 
-export default Unamed // Don�t forget to use export default!
+export default Unamed_Modal // Don�t forget to use export default!
