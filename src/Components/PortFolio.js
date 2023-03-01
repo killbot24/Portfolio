@@ -9,7 +9,7 @@ function Portfolio() {
   
  return (
 
-<div class="Portfolio ">
+<div id='Portfolio' class="Portfolio ">
     <h1 class="text-center text-white text-5xl">My work</h1>
 
     <div class=" bg-gray-700    w-3/4 mx-auto">

@@ -10,7 +10,7 @@ function AboutMe() {
    <div class="pb-5 lg:grid lg:grid-rows-1 lg:grid-flow-col sm:block  gap-4 mt-2  w-3/4 mx-auto ">
 
 <div class="col-start-1 col-span-1">
-<img class=" mb-5" src="face.jfif"></img>
+<img class=" mb-5 w-3/4" src="face.jfif"></img>
 
 </div>
 
@@ -47,24 +47,25 @@ function AboutMe() {
 </div>
 </div>
 
-<h1 class="text-center text-white text-5xl">Skills</h1>
+<h1  class="text-center text-white text-5xl">Skills</h1>
 
-<div class=" lg:flex lg:justify-evenlyl gap-1 lg:w-3/4  mx-auto bg-slate-700 px-1 py-1 mt-5 grid grid-cols-4">
+<div id='Skills' class=" lg:flex lg:justify-evenlyl gap-1 lg:w-3/4  mx-auto bg-slate-700 px-1 py-1 mt-5 ">
 
-        
-       
-            <p class="bg-slate-500   text-center py-1 px-1 rounded   mt-1 ">Java</p>
-            <p class="bg-slate-500   text-center py-1 px-1 rounded  mt-1">JavaScript</p>
-            <p class="bg-slate-500  text-center py-1 px-1 rounded  mt-1">React</p>
-            <p class="bg-slate-500  text-center py-1 px-1 rounded  mt-1">PHP</p>
-            <p class="bg-slate-500  text-center py-1 px-1 rounded  mt-1">HTML</p>
+        <div className='grid grid-cols-4 gap-2'>
+            
+            <p class="bg-slate-500   text-center py-1 px-1 rounded border-r-white border  mt-1 hover:bg-blue-500 text-white font-bold">Java</p>
+            <p class="bg-slate-500   text-center py-1 px-1 rounded border-r-white border  mt-1  hover:bg-blue-500 text-white font-bold">JavaScript</p>
+            <p class="bg-slate-500  text-center py-1 px-1 rounded border-r-white border  mt-1  hover:bg-blue-500 text-white font-bold">React</p>
+            <p class="bg-slate-500  text-center py-1 px-1 rounded  border-r-white border mt-1  hover:bg-blue-500 text-white font-bold">PHP</p>
+            <p class="bg-slate-500  text-center py-1 px-1 rounded border-r-white border mt-1  hover:bg-blue-500 text-white font-bold">HTML</p>
 
-            <p class="bg-slate-500  text-center py-1 px-1 rounded  mt-1 ">Css</p>
-            <p class="bg-slate-500  text-center py-1 px-1 rounded  mt-1">Tailwind Css</p>
-            <p class="bg-slate-500  text-center py-1 px-1 rounded  mt-1">MYSQL</p>
-            <p class="bg-slate-500  text-center py-1 px-1 rounded  mt-1">NoSQL</p>
-            <p class="bg-slate-500  text-center py-1 px-1 rounded  mt-1">Unity</p>
-            <p class="bg-slate-500  text-center py-1 px-1 rounded  mt-1">UE5</p>
+            <p class="bg-slate-500  text-center py-1 px-1 rounded border-r-white border  mt-1  hover:bg-blue-500 text-white font-bold">Css</p>
+            <p class="bg-slate-500  text-center py-1 px-1 rounded border-r-white border  mt-1  hover:bg-blue-500 text-white font-bold">Tailwind Css</p>
+            <p class="bg-slate-500  text-center py-1 px-1 rounded  border-r-white border mt-1  hover:bg-blue-500 text-white font-bold">MYSQL</p>
+            <p class="bg-slate-500  text-center py-1 px-1 rounded border-r-white border mt-1  hover:bg-blue-500 text-white font-bold">NoSQL</p>
+            <p class="bg-slate-500  text-center py-1 px-1 rounded border-r-white border mt-1  hover:bg-blue-500 text-white font-bold">Unity</p>
+            <p class="bg-slate-500  text-center py-1 px-1 rounded border-r-white border mt-1  hover:bg-blue-500 text-white font-bold">UE5</p>
+        </div>
         </div>
         </div>
 
