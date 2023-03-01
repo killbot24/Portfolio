@@ -27,7 +27,7 @@ function AboutMe() {
 
     <div class=" bg-zinc-800 mt-2 mx-1 pt-2 px-2  " id="box1"> 
 
-        <h5 class="bg-green-700 w-fit py-0.5 px-1 text-sm   ">2018-2021</h5>
+        <h5 class="bg-green-700 w-fit py-0.5 px-1 text-sm   ">2018-2022</h5>
         <h3 class=" text-sm ">Digital media and computeing (Honors) At GMIT/ATU</h3>
         <p class=" w-fit px-2 py-1">Grade: 2:1</p> 
     </div>
