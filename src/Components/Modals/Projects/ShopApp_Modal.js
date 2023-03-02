@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 function ShopApp_Modal() { 
   
  return (
-    <div>
+    <div className='mt-auto'>
     
-    <button data-modal-target="ShopAppModal" data-modal-toggle="ShopAppModal" className='bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded' type="button">
+    <button data-modal-target="ShopAppModal" data-modal-toggle="ShopAppModal" className='bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500' type="button">
       Show More
     </button>
     

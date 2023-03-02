@@ -14,12 +14,12 @@ const navigation = [
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
-function Navbar() { 
-  
- return (
- 
+function Navbar() {
 
-<Disclosure as="nav" className="bg-gray-800">
+  return (
+
+
+    <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -37,9 +37,9 @@ function Navbar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <h1 className='block  lg:hidden text-white'>Thomas Burke</h1>
-                  <h1 className='hidden   lg:block text-white'>Thomas Burke</h1>
-                 
+                  <h1 className='block  lg:hidden text-white font-bold'>Thomas Burke</h1>
+                  <h1 className='hidden   lg:block text-white font-bold'>Thomas Burke</h1>
+
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
@@ -47,7 +47,7 @@ function Navbar() {
                       <a
                         key={item.name}
                         href={item.href}
-                        
+
                         className={classNames(
                           item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
@@ -60,15 +60,15 @@ function Navbar() {
                   </div>
                 </div>
                 <div className=' ml-auto hidden   lg:flex'>
-                <a href='https://github.com/killbot24'>  
-                   <img src="Github.svg" className='w-10'></img>
-                    </a>
-                <a href='https://www.linkedin.com/in/thomas-burke-277a1b224/'>  
-                   <img src="linkedin.svg" className='w-10'></img>
-                    </a>
+                  <a href='https://github.com/killbot24'>
+                    <img src="Github.svg" className='w-10'></img>
+                  </a>
+                  <a href='https://www.linkedin.com/in/thomas-burke-277a1b224/'>
+                    <img src="linkedin.svg" className='w-10'></img>
+                  </a>
                 </div>
               </div>
-              
+
             </div>
           </div>
 
@@ -93,7 +93,7 @@ function Navbar() {
         </>
       )}
     </Disclosure>
-);
+  );
 
 
 }

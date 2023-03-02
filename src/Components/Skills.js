@@ -29,7 +29,7 @@ function Skills() {
         </div>
         </div>
         
-        <h1 class="text-center bg-blue-600  mt-5">Skills</h1>
+        <h1 class="text-center bg-blue-600 font-bold text-white text-5xl  mt-5">Skills</h1>
         
         <div class="Skill_Showcase bg-zinc-900 max-w-full w-full 2xl:flex">  
 
