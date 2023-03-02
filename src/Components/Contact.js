@@ -14,7 +14,7 @@ function Contact() {
         <img src="linkedin.svg" className='w-10'></img>
       </a>
       </div>
-      <h1 className='font-bold text-white'>Email:(Being setup)</h1>
+      <h1 className='font-bold text-white'>Email:thomasburke@thomasburke.me)</h1>
       </div>
     </div>
   );
