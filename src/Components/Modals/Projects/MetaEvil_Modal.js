@@ -30,7 +30,7 @@ function MetaEvil_Modal() {
                         Game designed in ATU with a group this is a rpg game that jokes about the fact it is a game. The bosses  will poke fun at the player if they have been defeated before. The player can buy new swords and potions. 
                         <a href='https://chickon98.itch.io/metaevil'>Itch.io</a>
                     </p>
-                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0rdKCGFzOHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 
                 <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">

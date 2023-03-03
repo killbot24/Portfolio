@@ -29,7 +29,7 @@ function Breakit_Modal() {
                     <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
                         This Vr game was built for Atu. The goal of this game is to destroy as much as possible  with out being caught by the guard. There are vases and paintings to destroy.
                     </p>
-                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/CD8kiBX6_iM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
                     <button data-modal-hide="ShopAppModal" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Close</button>
