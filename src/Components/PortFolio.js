@@ -12,11 +12,11 @@ function Portfolio() {
         <div id='Portfolio' class="Portfolio ">
             <h1 class="text-center font-bold text-white text-5xl">My work</h1>
 
-            <div class=" w-full lg:w-1/2 mx-auto">
-                <div className='pb-5 grid grid-rows-3 grid-flow-col   gap-1 mt-2 mx-auto'>
+            <div class=" w-full lg:w-2/3  mx-auto">
+                <div className='pb-5 grid grid-rows-6 lg:grid-rows-2 grid-flow-col   gap-5 mt-2 '>
 
 
-                    <div class="bg-gray-800    text-center flex flex-col">
+                    <div class="bg-gray-800     flex flex-col">
                         <h1 className=' bg-blue-900 font-bold text-white text-2xl'>Shop app</h1>
                         <img className='w-full mx-auto' src='https://github.com/killbot24/Website/blob/gh-pages/datarep.PNG?raw=true'></img>
                         <a className=' text-blue-500' href='https://github.com/killbot24/DataRep-Project'>Github</a>
@@ -26,7 +26,7 @@ function Portfolio() {
 
                     </div>
 
-                    <div class="bg-gray-800    text-center flex flex-col">
+                    <div class="bg-gray-800     flex flex-col">
                         <h1 className=' bg-blue-900 font-bold text-white text-2xl'>MetaEvil</h1>
                         <img className='w-full mx-auto' src='https://github.com/killbot24/Website/blob/gh-pages/meta.png?raw=true'></img>
                         <a className=' text-blue-500' href='https://chickon98.itch.io/metaevil'>Itch.io</a>
@@ -35,21 +35,21 @@ function Portfolio() {
                         <MetaEvil_Modal />
                     </div>
 
-                    <div class="bg-gray-800    text-center flex flex-col">
+                    <div class="bg-gray-800    flex flex-col">
                         <h1 className=' bg-blue-900 font-bold text-white text-2xl'>Breakit</h1>
                         <img className='w-full mx-auto' src='https://github.com/killbot24/Website/blob/gh-pages/breakit1.PNG?raw=true'></img>
                         <a className=' text-blue-500 hidden' href=''>Itch.io</a>
                         <p className='text-white'>VR Game developed in unity for a university project</p>
                         <Breakit_Modal />
                     </div>
-                    <div class="bg-gray-800    text-center flex flex-col">
+                    <div class="bg-gray-800    flex flex-col">
                         <h1 className=' bg-blue-900 font-bold text-white text-2xl'>Unamed Game</h1>
                         <img className='w-full mx-auto' src='https://github.com/killbot24/Website/blob/gh-pages/3dworlds.PNG?raw=true'></img>
                         <a className=' text-blue-500 hidden' href='https://chickon98.itch.io/metaevil'>Itch.io</a>
                         <p className='text-white'>Game developed in unity for a university project</p>
                         <Unamed_Modal />
                     </div>
-                    <div class="bg-gray-800    text-center flex flex-col">
+                    <div class="bg-gray-800    flex flex-col">
                         <h1 className=' bg-blue-900 w-full font-bold text-white text-2xl'>Chatfilter</h1>
                         <img className='w-full mx-auto' src=''></img>
                         <a className=' text-blue-500' href='https://github.com/killbot24/chatfilter-spigot'>Github</a>
@@ -57,7 +57,7 @@ function Portfolio() {
                         <p className='text-white'>A chat filter developed to monitor in game interactions </p>
                         <ChatFilter_Modal />
                     </div>
-                    <div class="bg-gray-800    text-center flex flex-col">
+                    <div class="bg-gray-800     flex flex-col">
                         <h1 className=' bg-blue-900 w-full font-bold text-white text-2xl'>This website</h1>
                         <img className='w-full mx-auto' src=''></img>
                         <a className=' text-blue-500' href='https://github.com/killbot24/chatfilter-spigot'>Github</a>

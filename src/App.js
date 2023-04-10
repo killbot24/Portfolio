@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App" class="bg-gradient-to-r from-gray-700 to-gray-900 min-h-screen">
       <Navbar />
-      <Top />
+
       <AboutMe />
       <Portfolio />
       <Contact />
