@@ -5,7 +5,6 @@ function Contact() {
 
     <div id='Contact' className=' mx-auto bg-slate-800'>
       <div className='w-1/2 mx-auto'>
-      <h1 className='font-bold text-white text-5xl text-center'>Contact</h1>
       <div className='flex'>
       <a href='https://github.com/killbot24'>
         <img src="Github.svg" className='w-10'></img>

@@ -22,57 +22,41 @@ function AboutMe() {
                 </div>
 
                 <div id="Exp" className=" bg-slate-700   rounded col-start-3 row-span-1 drop-shadow-2xl  h-full   text-white">
-                    <h2 className="text-lg px-5">Education</h2>
+                    <h1 className="text-lg text-center px-5">Education</h1>
                  
-                    <div className=" bg-zinc-800 mt-2 mx-1 pt-2 px-2  ">
+                    <div className=" bg-zinc-800 mt-2 mx-1 pt-2 px-2  rounded ">
 
                         <h5 className="bg-green-700 w-fit py-0.5 px-1 text-sm   ">2018-2022</h5>
-                        <h3 className=" text-sm ">Digital media and computeing (Honors)</h3>
-                        <p className=" w-fit px-2 py-1">Grade: 2:1</p>
+                        <p className=" text-sm ">Digital media and computeing (Honors)</p>
+                        <p className=" w-fit px-2 py-1 text-sm">Grade: 2:1</p>
                     </div>
-                    <h2 className="text-lg px-5">Experiance</h2>
+                    <h2 className="text-lg text-center px-5">Experiance</h2>
                 
-                    <div className=" bg-zinc-800 mt-2 mx-1 pt-2 px-2  " >
-                        <h5 className="bg-green-700 w-fit py-0.5 px-1 text-sm  ">2019-2023</h5>
-                        <h5 className=" text-sm">Admin for Dapper fox group</h5>
+                    <div className=" bg-zinc-800 mt-2 mx-1 pt-2 px-2  rounded " >
+                        <p className="bg-green-700 w-fit py-0.5 px-1 text-sm rounded ">2019-2023</p>
+                        <p className=" text-sm float-right">Dapper Fox Group</p>
+                        <p className=" text-sm">Admin </p>
                         <p className=" w-fit px-2 py-1 "></p>
                     </div>
 
-                    <div className=" bg-zinc-800 mt-2 mx-1 pt-2 px-2">
+                    <div className=" bg-zinc-800 mt-2 mx-1 pt-2 px-2 rounded ">
                         <h5 className="bg-green-700 w-fit py-0.5 px-1 text-sm  ">2020-2022</h5>
-                        <h5 className=" text-sm ">Dapper Fox Group</h5>
-                        <h4 className=" text-sm">Software engineer</h4>
+                        <h5 className=" text-sm float-right ">Dapper Fox Group</h5>
+                        <p className=" text-sm">Software engineer</p>
                         <p className=" w-fit px-2 py-1 mb-2"></p>
                     </div>
-                    <div className=" bg-zinc-800 mt-2 mx-1 pt-2 px-2">
+                    <div className=" bg-zinc-800 mt-2 mx-1 pt-2 px-2 rounded ">
                         <h5 className="bg-green-700 w-fit py-0.5 px-1 text-sm  ">2023-Present</h5>
-                        <h5 className=" text-sm">Dapper Fox Group</h5>
-                        <h4 className=" text-sm">BackEnd Engineer</h4>
+                        <h5 className=" text-sm float-right">Dapper Fox Group</h5>
+                        <p className=" text-sm">Full Stack Developer</p>
                         <p className=" w-fit px-2 py-1 mb-2"></p>
                     </div>
                 </div>
             </div>
 
-            <h1 class=" font-bold text-center  text-white text-5xl">Skills</h1>
+            
 
-            <div id='Skills' class=" lg:flex lg:justify-evenlyl gap-1 lg:w-3/4  mx-auto  px-1 py-1 mt-5 ">
-
-                <div className='grid lg:grid-cols-11 sm:grid-cols-3 gap-5 mx-auto'>
-
-                    <p class="bg-slate-500   text-center py-1 px-1 rounded border-r-white border  mt-1 hover:bg-blue-500 text-white font-bold">Java</p>
-                    <p class="bg-slate-500   text-center py-1 px-1 rounded border-r-white border  mt-1  hover:bg-blue-500 text-white font-bold">JavaScript</p>
-                    <p class="bg-slate-500  text-center py-1 px-1 rounded border-r-white border  mt-1  hover:bg-blue-500 text-white font-bold">React</p>
-                    <p class="bg-slate-500  text-center py-1 px-1 rounded  border-r-white border mt-1  hover:bg-blue-500 text-white font-bold">PHP</p>
-                    <p class="bg-slate-500  text-center py-1 px-1 rounded border-r-white border mt-1  hover:bg-blue-500 text-white font-bold">HTML</p>
-
-                    <p class="bg-slate-500  text-center py-1 px-1 rounded border-r-white border  mt-1  hover:bg-blue-500 text-white font-bold">Css</p>
-                    <p class="bg-slate-500  text-center py-1 px-1 rounded border-r-white border  mt-1  hover:bg-blue-500 text-white font-bold">Tailwind Css</p>
-                    <p class="bg-slate-500  text-center py-1 px-1 rounded  border-r-white border mt-1  hover:bg-blue-500 text-white font-bold">MYSQL</p>
-                    <p class="bg-slate-500  text-center py-1 px-1 rounded border-r-white border mt-1  hover:bg-blue-500 text-white font-bold">NoSQL</p>
-                    <p class="bg-slate-500  text-center py-1 px-1 rounded border-r-white border mt-1  hover:bg-blue-500 text-white font-bold">Unity</p>
-                    <p class="bg-slate-500  text-center py-1 px-1 rounded border-r-white border mt-1  hover:bg-blue-500 text-white font-bold">UE5</p>
-                </div>
-            </div>
+           
         </div>
 
 
