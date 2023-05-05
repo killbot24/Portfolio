@@ -5,60 +5,35 @@ function AboutMe() {
 
 
     return (
-
-        <div id='AboutMe' className="Aboutme from-gray-900 to-gray-700 ">
-
-            <h1 className="capitalize text-center   font-bold text-white text-5xl">About me</h1>
-            <div className="pb-5 lg:grid lg:grid-rows-1 lg:grid-flow-col sm:block  gap-4 mt-2  w-3/4 mx-auto ">
-
-                <div className="col-start-2 col-span-1  text-white  ">
-                    <p className=" px-2 mb-5 py-2">
-                        I am a recent graduate who has completed an honours degree with second-class honours from Galway Mayo Institute of Technology now Atlantic Technological University. During my study,
-                        I and my team achieved stage 2 of enterprise student awards with our game called MetaEvil. While doing my study I did some freelance work at dapper fox where
-                        I worked as an admin this role took on a wide range of responsibilities from customer support representative to systems admin. One of my main achievements during my time
-                        there developed an automated chat filter that cuts down on toxic behaviour by %90.
-                        Excited to take the next step in my career!</p>
-
-                </div>
-
-                <div id="Exp" className=" bg-slate-700   rounded col-start-3 row-span-1 drop-shadow-2xl  h-full   text-white">
-                    <h1 className="text-lg text-center px-5">Education</h1>
-                 
-                    <div className=" bg-zinc-800 mt-2 mx-1 pt-2 px-2  rounded ">
-
-                        <h5 className="bg-green-700 w-fit py-0.5 px-1 text-sm   ">2018-2022</h5>
-                        <p className=" text-sm ">Digital media and computeing (Honors)</p>
-                        <p className=" w-fit px-2 py-1 text-sm">Grade: 2:1</p>
+        <div id='AboutMe' className="bg-gray-900 text-white py-10 lg:py-20">
+            <div class="w-full max-w-5xl mx-auto px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-8 lg:gap-12">
+                    <div class="flex flex-col justify-center">
+                        <h1 class="text-4xl lg:text-5xl font-bold mb-4">About Me</h1>
+                        <p class="text-lg leading-7 mb-6 lg:mb-8">Hi, I'm Thomas Burke, and I'm a recent graduate with a passion for entrepreneurship and innovation. I'm thrilled to have advanced to stage 2 of the Enterprise Ireland Student Awards, which demonstrates my commitment to pursuing these interests.</p>
+                        <p class="text-lg leading-7 mb-6 lg:mb-8">Over the past two years, I've honed my skills as a freelance developer, specializing in Java development and website design. This experience has not only expanded my technical knowledge but has also allowed me to develop critical thinking skills and a strong work ethic.</p>
+                        <p class="text-lg leading-7 mb-6 lg:mb-8">What excites me most is the opportunity for continuous learning and personal development. I'm always eager to take on new challenges and bring my enthusiasm and abilities to any project or team. I look forward to connecting with you and exploring how I can help make a positive impact through my work</p>
+                        <a href="#Contact" class="bg-green-500 text-white font-medium py-2 px-6 rounded-lg hover:bg-green-600 transition duration-300">Contact Me</a>
                     </div>
-                    <h2 className="text-lg text-center px-5">Experiance</h2>
-                
-                    <div className=" bg-zinc-800 mt-2 mx-1 pt-2 px-2  rounded " >
-                        <p className="bg-green-700 w-fit py-0.5 px-1 text-sm rounded ">2019-2023</p>
-                        <p className=" text-sm float-right">Dapper Fox Group</p>
-                        <p className=" text-sm">Admin </p>
-                        <p className=" w-fit px-2 py-1 "></p>
-                    </div>
+                    <div class="flex justify-center items-center">
+                    <img src="/FacePic.jpg" alt="Thomas Burke" class="rounded-full h-64 w-64 object-cover object-middle mx-auto lg:h-80 lg:w-80 shadow-xl" />
 
-                    <div className=" bg-zinc-800 mt-2 mx-1 pt-2 px-2 rounded ">
-                        <h5 className="bg-green-700 w-fit py-0.5 px-1 text-sm  ">2020-2022</h5>
-                        <h5 className=" text-sm float-right ">Dapper Fox Group</h5>
-                        <p className=" text-sm">Software engineer</p>
-                        <p className=" w-fit px-2 py-1 mb-2"></p>
-                    </div>
-                    <div className=" bg-zinc-800 mt-2 mx-1 pt-2 px-2 rounded ">
-                        <h5 className="bg-green-700 w-fit py-0.5 px-1 text-sm  ">2023-Present</h5>
-                        <h5 className=" text-sm float-right">Dapper Fox Group</h5>
-                        <p className=" text-sm">Full Stack Developer</p>
-                        <p className=" w-fit px-2 py-1 mb-2"></p>
+
+
                     </div>
                 </div>
+                <h2 class="text-4xl lg:text-5xl font-bold mt-16 mb-8 text-center">Experience</h2>
+                <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 ">
+                    <div class="flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold mb-2">Dapper Fox Group</h3>
+                        <ul class="list-disc text-lg leading-7 mb-6 lg:mb-8">
+                            <li>Full Stack Developer (2023 - Present)</li>
+                            <li>Software Engineer (2020 - 2022)</li>
+                            <li>Admin (2019 - 2023)</li>
+                        </ul>
+                    </div>  </div>
             </div>
-
-            
-
-           
         </div>
-
 
 
 
