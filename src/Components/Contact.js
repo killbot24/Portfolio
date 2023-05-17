@@ -3,19 +3,21 @@ import React, { Component } from 'react';
 function Contact() {
   return (
 
-    <div id='Contact' className=' mx-auto bg-slate-800'>
-      <div className='w-1/2 mx-auto'>
-      <div className='flex'>
-      <a href='https://github.com/killbot24'>
-        <img src="Github.svg" className='w-10'></img>
-      </a>
-      <a href='https://www.linkedin.com/in/thomas-burke-277a1b224/'>
-        <img src="linkedin.svg" className='w-10'></img>
-      </a>
+    <div id="Contact" class="mx-auto bg-slate-800 py-8">
+    <div class="max-w-2xl mx-auto">
+      <div class="flex justify-center mb-4">
+        <h1 class="text-4xl lg:text-5xl font-bold text-center text-white">Contact</h1>
+        <a href="https://github.com/killbot24" target="_blank" rel="noopener noreferrer" class="mr-4">
+          <img src="Github.svg" alt="GitHub" class="w-10"/>
+        </a>
+        <a href="https://www.linkedin.com/in/thomas-burke-277a1b224/" target="_blank" rel="noopener noreferrer">
+          <img src="linkedin.svg" alt="LinkedIn" class="w-10"/>
+        </a>
       </div>
-      <h1 className='font-bold text-white'>Email:thomasburke@thomasburke.me</h1>
-      </div>
+      <h1 class="text-white text-center font-bold">Email: thomas@thomasburke.me</h1>
     </div>
+  </div>
+  
   );
 
 }

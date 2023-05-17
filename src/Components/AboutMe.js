@@ -10,28 +10,80 @@ function AboutMe() {
                 <div class="grid lg:grid-cols-2 gap-8 lg:gap-12">
                     <div class="flex flex-col justify-center">
                         <h1 class="text-4xl lg:text-5xl font-bold mb-4">About Me</h1>
-                        <p class="text-lg leading-7 mb-6 lg:mb-8">Hi, I'm Thomas Burke, and I'm a recent graduate with a passion for entrepreneurship and innovation. I'm thrilled to have advanced to stage 2 of the Enterprise Ireland Student Awards, which demonstrates my commitment to pursuing these interests.</p>
-                        <p class="text-lg leading-7 mb-6 lg:mb-8">Over the past two years, I've honed my skills as a freelance developer, specializing in Java development and website design. This experience has not only expanded my technical knowledge but has also allowed me to develop critical thinking skills and a strong work ethic.</p>
-                        <p class="text-lg leading-7 mb-6 lg:mb-8">What excites me most is the opportunity for continuous learning and personal development. I'm always eager to take on new challenges and bring my enthusiasm and abilities to any project or team. I look forward to connecting with you and exploring how I can help make a positive impact through my work</p>
+                        <p class="text-lg leading-7 mb-6 lg:mb-8">Hello, I'm Thomas Burke, a recent graduate passionate about entrepreneurship and innovation. I'm proud to be in stage 2 of the Enterprise Ireland Student Awards, showing my dedication to these interests.
+                            As a freelance developer for the past two years, I've specialized in Java development and website design</p>
                         <a href="#Contact" class="bg-green-500 text-white font-medium py-2 px-6 rounded-lg hover:bg-green-600 transition duration-300">Contact Me</a>
                     </div>
                     <div class="flex justify-center items-center">
-                    <img src="/FacePic.jpg" alt="Thomas Burke" class="rounded-full h-64 w-64 object-cover object-middle mx-auto lg:h-80 lg:w-80 shadow-xl" />
+                        <img src="/FacePic.jpg" alt="Thomas Burke" class="rounded-full h-64 w-64 object-cover object-middle mx-auto lg:h-80 lg:w-80 shadow-xl" />
 
 
 
                     </div>
                 </div>
-                <h2 class="text-4xl lg:text-5xl font-bold mt-16 mb-8 text-center">Experience</h2>
-                <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 ">
-                    <div class="flex flex-col justify-center">
-                        <h3 class="text-2xl font-bold mb-2">Dapper Fox Group</h3>
-                        <ul class="list-disc text-lg leading-7 mb-6 lg:mb-8">
-                            <li>Full Stack Developer (2023 - Present)</li>
-                            <li>Software Engineer (2020 - 2022)</li>
-                            <li>Admin (2019 - 2023)</li>
-                        </ul>
-                    </div>  </div>
+                <div class="mt-16 mb-8">
+                    <h2 class="text-4xl lg:text-5xl font-bold text-center">Experience</h2>
+                    <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 mt-8">
+                        <div class="flex flex-col justify-center">
+                            <h3 class="text-2xl font-bold mb-2">Dapper Fox Group</h3>
+                            <ul class="list-disc text-lg leading-7 mb-6">
+                                <li>Full Stack Developer (2023 - Present)</li>
+                                <li>Software Engineer (2020 - 2022)</li>
+                                <li>Admin (2019 - 2023)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-16 mb-8">
+                    <h2 class="text-4xl lg:text-5xl font-bold text-center">Education</h2>
+                    <div class="grid lg:grid-cols-2 gap-8 lg:gap-12 mt-8">
+                        <div class="flex flex-col justify-center">
+                            <h3 class="text-2xl font-bold mb-2">Atlantic Technological University</h3>
+                            <p class="text-lg leading-7 mb-2">Computing and Digital media</p>
+                            <p class="text-md leading-7 mb-6">Grade: 2:1</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gray-900 py-8">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 class="text-3xl font-bold text-center mb-4">Skills</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                        <div class=" bg-gray-800 bg-opacity-70 rounded-lg shadow-md p-6">
+                            <h3 class="text-xl font-bold mb-2">Web Design</h3>
+                            <ul class="list-disc list-inside">
+                                <li>UI/UX Design</li>
+                                <li>Wireframing</li>
+                                <li>Responsive Design</li>
+                            </ul>
+                        </div>
+
+
+                        <div class="bg-gray-800 bg-opacity-70 rounded-lg shadow-md p-6">
+                            <h3 class="text-xl font-bold mb-2">Front-end Development</h3>
+                            <ul class="list-disc list-inside">
+                                <li>HTML5/CSS3/Tailwind</li>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                            </ul>
+                        </div>
+
+
+                        <div class="bg-gray-800 bg-opacity-70 rounded-lg shadow-md p-6">
+                            <h3 class="text-xl font-bold mb-2">Backend Development</h3>
+                            <ul class="list-disc list-inside">
+                                <li>Node.js</li>
+                                <li>Next.js</li>
+                                <li>MySQL</li>
+                                <li>Java</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
