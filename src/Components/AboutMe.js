@@ -46,7 +46,7 @@ function AboutMe() {
                                 <h4 class="text-gray-500 text-sm mb-4">Dapper Fox Group</h4>
     
                             </div>
-                            <div class="w-1/4 flex justify-end h-fit">
+                            <div class="w-1/4 flex justify-end h-fit ">
                                 <div class="bg-gray-200 rounded-md p-2">
                                     <p class="text-gray-800 text-xs">2019 -Present</p>
                                 </div>
