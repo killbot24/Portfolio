@@ -12,21 +12,9 @@ function Portfolio() {
   <h1 class="text-center font-bold text-white text-5xl">Projects</h1>
 
   <div class="w-full lg:w-2/3 mx-auto">
-    <div class='pb-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-2'>
+    <div class='pb-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-2 mt-2'>
 
-      <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden">
-       
-        <div class="px-6 py-4">
-          <h1 class='bg-slate-800 text-center font-bold text-white text-2xl mb-2'>Shop app</h1>
-          <p class="text-white text-sm mb-4">My shop app is a web application that was developed as part of a university project. The project aimed to develop a website using React that could take in and serve data through a REST API. This app was created with the purpose of providing users with an intuitive and user-friendly way to browse and purchase products.</p>
-          <div class='flex justify-center'>
-            <a class="text-blue-500 hover:text-blue-400 mr-4" href='https://github.com/killbot24/DataRep-Project'>
-              <i class="fab fa-github mr-2"></i> Github
-            </a>
-            
-          </div>
-        </div>
-      </div>
+     
 
       <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden">
         <img src="https://img.itch.zone/aW1hZ2UvMTQ4NTAwNS84ODU0MjE1LnBuZw==/original/VlmpCG.png" alt="MetaEvil Screenshot" class="h-48 object-cover w-full"/>
@@ -62,7 +50,21 @@ function Portfolio() {
            
           </div>
         </div>
-      </div></div></div></div>
+      </div>
+      <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden">
+       
+       <div class="px-6 py-4">
+         <h1 class='bg-slate-800 text-center font-bold text-white text-2xl mb-2'>Shop app</h1>
+         <p class="text-white text-sm mb-4">My shop app is a web application that was developed as part of a university project. The project aimed to develop a website using React that could take in and serve data through a REST API. This app was created with the purpose of providing users with an intuitive and user-friendly way to browse and purchase products.</p>
+         <div class='flex justify-center'>
+           <a class="text-blue-500 hover:text-blue-400 mr-4" href='https://github.com/killbot24/DataRep-Project'>
+             <i class="fab fa-github mr-2"></i> Github
+           </a>
+           
+         </div>
+       </div>
+     </div>
+      </div></div></div>
 
      
 

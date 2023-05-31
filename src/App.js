@@ -33,7 +33,7 @@ for (let i = 0; i < 100; i++) {
 }
 
   return (
-    <div className="App" class="bg-gradient-to-r from-gray-700 to-gray-900 min-h-screen font-sans">
+    <div className="App" class=" bg-gray-900 min-h-screen font-sans">
       <Analytics />
       <Navbar />
 
