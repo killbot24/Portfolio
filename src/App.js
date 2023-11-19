@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import { Analytics } from '@vercel/analytics/react';
 import Navbar from './Components/Nabvar';
-import Top from './Components/Top';
 import AboutMe from './Components/AboutMe';
 import Portfolio from './Components/PortFolio';
 import Contact from './Components/Contact'

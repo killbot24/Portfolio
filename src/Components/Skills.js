@@ -36,6 +36,7 @@ function Skills() {
         <div class="Programing  mx-auto 2xl:w-1/4 py-5 px-5 my-5 rounded">
         <h1 class=" bg-blue-600 2-full 2xl:w-2/3 text-center py-1 px-3 rounded mx-auto">Programming</h1>
             <h1 class="bg-slate-500 w-2/3 text-center py-1 px-3 rounded mx-auto mt-1 ">Java</h1>
+            
             <h1 class="bg-slate-500 w-2/3 text-center py-1 px-3 rounded mx-auto mt-1">JavaScript</h1>
             <h1 class="bg-slate-500 w-2/3 text-center py-1 px-3 rounded mx-auto mt-1">React</h1>
             <h1 class="bg-slate-500 w-2/3 text-center py-1 px-3 rounded mx-auto mt-1">PHP</h1>

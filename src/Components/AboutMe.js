@@ -9,7 +9,7 @@ function AboutMe() {
             "id": 1,
             "jobTitle": "Full Stack Developer",
             "company": "Dapper fox group",
-            "Years": "2023-present",
+            "Years": "2023-2023",
             "desc": "My Duties in this role are to design and develop a partner portal to keep track of company media partners, My current stack in this role is React, Node.js, Next.js, Mysql, HTML, CSS, Tailwind.   "
         },
         {
@@ -43,8 +43,7 @@ function AboutMe() {
             <div class="w-full max-w-5xl mx-auto px-6 lg:px-8">
 
                 <div class=" justify-center">
-                    <h1 className="text-4xl lg:text-5xl font-bold mb-4">Hello, I am Thomas Burke</h1>
-                    <h2>Fullstack | Software Engineer | Web developer</h2>
+                    <img src="/ThomasBurke.png"></img>
                     <div className=" bg-gray-800 shadow-md p-2 mt-20 rounded-md">
                         <h2 class="text-4xl lg:text-2xl  font-bold mb-4">About Me</h2>
                         <p class="text-lg leading-7  mb-6 lg:mb-8">Hello, I'm Thomas Burke, a recent graduate passionate about entrepreneurship and innovation. I'm proud to have achived stage 2 of the Enterprise Ireland Student Awards our group was the only one in the school of science part of our University  , showing my dedication to these interests.
@@ -58,6 +57,8 @@ function AboutMe() {
                                 <img src="linkedin.svg" alt="LinkedIn" class="w-10" />
                             </a>
                         </div>
+                        <div class="github-card" data-user="lepture" data-repo="github-cards"></div>
+                        <script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
                     </div>
                 </div>
 
@@ -124,6 +125,7 @@ function AboutMe() {
                         )}
                     </div>
                 </div>
+                <div className=" bg-slate-800 p-5 rounded-md">
                 <h2 class="text-4xl lg:text-5xl font-bold text-center">Education</h2>
                 <div class="mt-16 mb-8 grid md:grid-cols-2 gap-8">
                     <div>
@@ -146,7 +148,7 @@ function AboutMe() {
                         </div>
                     </div>
                 </div>
-
+                </div>
             </div>
 
             <div class="bg-gray-900 py-8">
@@ -168,7 +170,7 @@ function AboutMe() {
                             <h3 class="text-xl font-bold mb-2">Front-end Development</h3>
                             <ul class="list-disc list-inside">
                                 <li>HTML5/CSS3/Tailwind</li>
-                                <li>JavaScript</li>
+                                <li>JavaScript </li>
                                 <li>React</li>
                                 <li>Bootstrap</li>
                             </ul>
