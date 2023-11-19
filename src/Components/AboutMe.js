@@ -45,7 +45,7 @@ function AboutMe() {
                 <div class=" justify-center">
                     <img src="/ThomasBurke.png"></img>
                     <div className=" bg-gray-800 shadow-md p-2 mt-20 rounded-md">
-                        <h2 class="text-4xl lg:text-2xl  font-bold mb-4">About Me</h2>
+                        <h2 class="text-4xl lg:text-5xl text-center  font-bold mb-4">About Me</h2>
                         <p class="text-lg leading-7  mb-6 lg:mb-8">Hello, I'm Thomas Burke, a recent graduate passionate about entrepreneurship and innovation. I'm proud to have achived stage 2 of the Enterprise Ireland Student Awards our group was the only one in the school of science part of our University  , showing my dedication to these interests.
                             As a freelance developer for the past two years, I've specialized in Java development and website design</p>
 
@@ -76,7 +76,7 @@ function AboutMe() {
                             </div>
                             <div class="w-1/4 flex justify-end h-fit">
                                 <div class="bg-gray-200 rounded-md p-2">
-                                    <p class="text-gray-800 text-xs">2023 -Present</p>
+                                    <p class="text-gray-800 text-xs">2023 -2023</p>
                                 </div>
                             </div>
                         </div>
