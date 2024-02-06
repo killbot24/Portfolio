@@ -16,7 +16,7 @@ function AboutMe() {
             "id": 2,
             "jobTitle": "IT Support Specialist",
             "company": "Dapper fox group",
-            "Years": "2019-present",
+            "Years": "2019-2023",
             "desc": "My duties in this role are to answer support tickets that cover a wide range of issues from Connection issues to payment issues & inquiries "
         },
         {
@@ -25,6 +25,14 @@ function AboutMe() {
             "company": "Dapper fox group",
             "Years": "2020-2022",
             "desc": "During my time in this role my main acchivement was developing a chatfilter that reduced chat infractions by 90% thus freeing up time of the rest of the staff team."
+        }
+        ,
+        {
+            "id": 4,
+            "jobTitle": "Project Manager",
+            "company": "Dapper fox group",
+            "Years": "2023-present",
+            "desc": "I took on this role in july 2023, The postion was open to manage our gameing network, and no one wanted to take it on. I decided to take a go at it and have been doing it since. My main duties are to manage the staff team, and to keep the network running smoothly, Createing new content and events for the community & Manageing our web store. Its stressful work but i enjoy it the community like me. i have managed to turn the network around abit from the slump it was haveing, Increaseing both player count and revenue. "
         }
     ];
 
@@ -39,36 +47,59 @@ function AboutMe() {
 
 
     return (
-        <div id='AboutMe' className="bg-gray-900 text-white py-10 lg:py-20">
-            <div class="w-full max-w-5xl mx-auto px-6 lg:px-8">
+        <div id='AboutMe' className="bg-gray-800 text-white py-10 lg:py-20">
+            <div class="w-full mx-auto px-6 lg:px-8 ">
 
-                <div class=" justify-center">
-                    <img src="/ThomasBurke.png"></img>
-                    <div className=" bg-gray-800 shadow-md p-2 mt-20 rounded-md">
-                        <h2 class="text-4xl lg:text-5xl text-center  font-bold mb-4">About Me</h2>
-                        <p class="text-lg leading-7  mb-6 lg:mb-8">Hello, I'm Thomas Burke, a recent graduate passionate about entrepreneurship and innovation. I'm proud to have achived stage 2 of the Enterprise Ireland Student Awards our group was the only one in the school of science part of our University  , showing my dedication to these interests.
-                            As a freelance developer for the past two years, I've specialized in Java development and website design</p>
+            <div class="flex justify-start ">
+    <div class="bg-gray-900 shadow-md p-2 mt-20 rounded-md max-w-md">
+        <h2 class="text-4xl lg:text-5xl text-center font-bold mb-4">About Me</h2>
+        <p class="text-lg leading-7 mb-6 lg:mb-8">Hello, I'm Thomas Burke, a recent graduate passionate about entrepreneurship and innovation. I'm proud to have achieved stage 2 of the Enterprise Ireland Student Awards our group was the only one in the school of science part of our University, showing my dedication to these interests. As a freelance developer for the past two years, I've specialized in Java development and website design</p>
+        <div class="flex mb-1 bg-slate-900 p-2 rounded-md">
+            <a href="https://github.com/killbot24" target="_blank" rel="noopener noreferrer" class="mr-4">
+                <img src="Github.svg" alt="GitHub" class="w-10" />
+            </a>
+            <a href="https://www.linkedin.com/in/thomas-burke-277a1b224/" target="_blank" rel="noopener noreferrer">
+                <img src="linkedin.svg" alt="LinkedIn" class="w-10" />
+            </a>
+        </div>
+        <div class="github-card" data-user="lepture" data-repo="github-cards"></div>
+        <script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
+    </div>
+</div>
 
-                        <div class="flex mb-1 bg-slate-900 p-2 rounded-md">
-                            <a href="https://github.com/killbot24" target="_blank" rel="noopener noreferrer" class="mr-4">
-                                <img src="Github.svg" alt="GitHub" class="w-10" />
-                            </a>
-                            <a href="https://www.linkedin.com/in/thomas-burke-277a1b224/" target="_blank" rel="noopener noreferrer">
-                                <img src="linkedin.svg" alt="LinkedIn" class="w-10" />
-                            </a>
-                        </div>
-                        <div class="github-card" data-user="lepture" data-repo="github-cards"></div>
-                        <script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
-                    </div>
-                </div>
 
 
                 <div class="mt-16 mb-8">
                     <h2 class="text-4xl lg:text-5xl font-bold text-center">Experience</h2>
 
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 gap-6">
+                    <div onClick={() => togglemoreinfo(4)} class="flex bg-gray-900 bg-opacity-70 rounded-lg shadow-md p-6 hover:bg-gray-700">
+                            <div class="w-full">
+                                <h3 class="text-xl font-bold mb-2">Project Manager</h3>
+                                <h4 class="text-gray-500 text-sm mb-4">Dapper Fox Group</h4>
 
-                        <div onClick={() => togglemoreinfo(1)} class="flex bg-gray-800 bg-opacity-70 rounded-lg shadow-md p-6 hover:bg-gray-700">
+                            </div>
+                            <div class="w-1/4 flex justify-end h-fit">
+                                <div class="bg-gray-200 rounded-md p-2">
+                                    <p class="text-gray-800 text-xs">2023-present</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div onClick={() => togglemoreinfo(2)} class="flex bg-gray-900 bg-opacity-70 rounded-lg shadow-md p-6 hover:bg-gray-700">
+                            <div class="w-full">
+                                <h3 class="text-xl font-bold mb-2">IT Support Specialist</h3>
+                                <h4 class="text-gray-500 text-sm mb-4">Dapper Fox Group</h4>
+
+                            </div>
+                            <div class="w-1/4 flex justify-end h-fit ">
+                                <div class="bg-gray-200 rounded-md p-2">
+                                    <p class="text-gray-800 text-xs">2019 -2023</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div onClick={() => togglemoreinfo(1)} class="flex bg-gray-900 bg-opacity-70 rounded-lg shadow-md p-6 hover:bg-gray-700">
                             <div class="w-full">
                                 <h3 class="text-xl font-bold mb-2">Fullstack Software Engineer</h3>
                                 <h4 class="text-gray-500 text-sm mb-4">Dapper Fox Group</h4>
@@ -82,19 +113,8 @@ function AboutMe() {
                         </div>
 
 
-                        <div onClick={() => togglemoreinfo(2)} class="flex bg-gray-800 bg-opacity-70 rounded-lg shadow-md p-6 hover:bg-gray-700">
-                            <div class="w-full">
-                                <h3 class="text-xl font-bold mb-2">IT Support Specialist</h3>
-                                <h4 class="text-gray-500 text-sm mb-4">Dapper Fox Group</h4>
-
-                            </div>
-                            <div class="w-1/4 flex justify-end h-fit ">
-                                <div class="bg-gray-200 rounded-md p-2">
-                                    <p class="text-gray-800 text-xs">2019 -Present</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div onClick={() => togglemoreinfo(3)} class="flex bg-gray-800 bg-opacity-70 rounded-lg shadow-md p-6 hover:bg-gray-700">
+                       
+                        <div onClick={() => togglemoreinfo(3)} class="flex bg-gray-900 bg-opacity-70 rounded-lg shadow-md p-6 hover:bg-gray-700">
                             <div class="w-full">
                                 <h3 class="text-xl font-bold mb-2">Software Engineer</h3>
                                 <h4 class="text-gray-500 text-sm mb-4">Dapper Fox Group</h4>
@@ -106,8 +126,10 @@ function AboutMe() {
                                 </div>
                             </div>
                         </div>
+
+                    
                     </div>
-                    <div className=" bg-slate-700 p-2 mt-3 rounded-md">
+                    <div className=" bg-gray-900 p-2 mt-3 shadow-md">
                         {data ? (
                             <>
                                 <div class=" flex justify-end h-fit">
@@ -125,7 +147,7 @@ function AboutMe() {
                         )}
                     </div>
                 </div>
-                <div className=" bg-slate-800 p-5 rounded-md">
+                <div className=" bg-slate-900 mb-5 p-5 rounded-md">
                 <h2 class="text-4xl lg:text-5xl font-bold text-center">Education</h2>
                 <div class="mt-16 mb-8 grid md:grid-cols-2 gap-8">
                     <div>
@@ -133,7 +155,7 @@ function AboutMe() {
                         <div class="mt-8">
                             <div class="flex flex-col justify-center">
                                 <h3 class="text-2xl font-bold mb-2">Atlantic Technological University</h3>
-                                <p class="text-lg leading-7 mb-2">Computing and Dig</p>
+                                <p class="text-lg leading-7 mb-2">Computing and Digital Media</p>
                                 <p class="text-md leading-7 mb-6">2019-2022</p>
                                 <p class="text-md leading-7 mb-6">Grade: 2:1</p>
                             </div>
@@ -146,6 +168,7 @@ function AboutMe() {
                             <h3 class="text-xl text-center font-bold mb-2">Student Enterprise Awards</h3>
                             <p>Achieved stage 2 of the Ireland Student Enterprise Awards. With my group's game "MetaEvil", a self-aware game that humorously acknowledges its game status. Built as an RPG with 2 bosses using custom mechanics.</p>
                         </div>
+
                     </div>
                 </div>
                 </div>

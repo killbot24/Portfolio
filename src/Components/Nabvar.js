@@ -38,6 +38,7 @@ function Navbar() {
       <h1 className="text-2xl md:text-3xl font-bold">Thomas Burke</h1>
     </div>
     <div className="flex items-center space-x-6">
+      
       <a href="https://github.com/killbot24">
         <img src="Github.svg" alt="Github" className="w-8 md:w-10" />
       </a>
