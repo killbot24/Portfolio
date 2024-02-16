@@ -69,11 +69,13 @@ function AboutMe() {
 
 
 
-                <div class="mt-16 mb-8">
-                    <h2 class="text-4xl lg:text-5xl font-bold text-center">Experience</h2>
+                <div class="mt-2 mb-8">
+                    <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 ">
+                    
 
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 gap-6">
-                    <div onClick={() => togglemoreinfo(4)} class="flex bg-gray-900 bg-opacity-70 rounded-lg shadow-md p-6 hover:bg-gray-700">
+                    <div class="">
+                    <h2 class="text-4xl lg:text-5xl font-bold  mb-5">Experience</h2>
+                    <div onClick={() => togglemoreinfo(4)} class="flex bg-gray-900 bg-opacity-30 rounded-lg shadow-md p-2 mt-2 hover:bg-gray-700">
                             <div class="w-full">
                                 <h3 class="text-xl font-bold mb-2">Project Manager</h3>
                                 <h4 class="text-gray-500 text-sm mb-4">Dapper Fox Group</h4>
@@ -86,7 +88,7 @@ function AboutMe() {
                             </div>
                         </div>
 
-                        <div onClick={() => togglemoreinfo(2)} class="flex bg-gray-900 bg-opacity-70 rounded-lg shadow-md p-6 hover:bg-gray-700">
+                        <div onClick={() => togglemoreinfo(2)} class="flex bg-gray-900 bg-opacity-30 rounded-lg shadow-md p-2 mt-2 hover:bg-gray-700">
                             <div class="w-full">
                                 <h3 class="text-xl font-bold mb-2">IT Support Specialist</h3>
                                 <h4 class="text-gray-500 text-sm mb-4">Dapper Fox Group</h4>
@@ -99,7 +101,7 @@ function AboutMe() {
                             </div>
                         </div>
 
-                        <div onClick={() => togglemoreinfo(1)} class="flex bg-gray-900 bg-opacity-70 rounded-lg shadow-md p-6 hover:bg-gray-700">
+                        <div onClick={() => togglemoreinfo(1)} class="flex bg-gray-900 bg-opacity-30 rounded-lg shadow-md p-2 mt-2 hover:bg-gray-700">
                             <div class="w-full">
                                 <h3 class="text-xl font-bold mb-2">Fullstack Software Engineer</h3>
                                 <h4 class="text-gray-500 text-sm mb-4">Dapper Fox Group</h4>
@@ -114,7 +116,7 @@ function AboutMe() {
 
 
                        
-                        <div onClick={() => togglemoreinfo(3)} class="flex bg-gray-900 bg-opacity-70 rounded-lg shadow-md p-6 hover:bg-gray-700">
+                        <div onClick={() => togglemoreinfo(3)} class="flex bg-gray-900 bg-opacity-30 rounded-lg shadow-md p-2 mt-2 hover:bg-gray-700">
                             <div class="w-full">
                                 <h3 class="text-xl font-bold mb-2">Software Engineer</h3>
                                 <h4 class="text-gray-500 text-sm mb-4">Dapper Fox Group</h4>
@@ -127,9 +129,9 @@ function AboutMe() {
                             </div>
                         </div>
 
+                        </div>
                     
-                    </div>
-                    <div className=" bg-gray-900 p-2 mt-3 shadow-md">
+                    <div className=" bg-gray-900 bg-opacity-20 ml-2 rounded-md p-2  shadow-md">
                         {data ? (
                             <>
                                 <div class=" flex justify-end h-fit">
@@ -146,10 +148,12 @@ function AboutMe() {
                             <p>Click on a postion to see more</p>
                         )}
                     </div>
+                    </div>
                 </div>
-                <div className=" bg-slate-900 mb-5 p-5 rounded-md">
+                <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-2">
+                <div id="Edu">
                 <h2 class="text-4xl lg:text-5xl font-bold text-center">Education</h2>
-                <div class="mt-16 mb-8 grid md:grid-cols-2 gap-8">
+                <div >
                     <div>
 
                         <div class="mt-8">
@@ -172,14 +176,13 @@ function AboutMe() {
                     </div>
                 </div>
                 </div>
-            </div>
+                
+            
+                    <div class="bg-gray-600 bg-opacity-20 rounded-md">
+                    <h2 class=" text-3xl font-bold text-center mb-4">Skills</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 m-2">
 
-            <div class="bg-gray-900 py-8">
-                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <h2 class="text-3xl font-bold text-center mb-4">Skills</h2>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-                        <div class=" bg-gray-800 bg-opacity-70 rounded-lg shadow-md p-6">
+                        <div class=" bg-gray-800 bg-opacity-70 rounded-lg shadow-md p-3">
                             <h3 class="text-xl font-bold mb-2">Web Design</h3>
                             <ul class="list-disc list-inside">
                                 <li>UI/UX Design</li>
@@ -189,7 +192,7 @@ function AboutMe() {
                         </div>
 
 
-                        <div class="bg-gray-800 bg-opacity-70 rounded-lg shadow-md p-6">
+                        <div class="bg-gray-800 bg-opacity-70 rounded-lg shadow-md p-3">
                             <h3 class="text-xl font-bold mb-2">Front-end Development</h3>
                             <ul class="list-disc list-inside">
                                 <li>HTML5/CSS3/Tailwind</li>
@@ -200,7 +203,7 @@ function AboutMe() {
                         </div>
 
 
-                        <div class="bg-gray-800 bg-opacity-70 rounded-lg shadow-md p-6">
+                        <div class="bg-gray-800 bg-opacity-70 rounded-lg shadow-md p-3">
                             <h3 class="text-xl font-bold mb-2">Backend Development</h3>
                             <ul class="list-disc list-inside">
                                 <li>Node.js</li>
@@ -209,19 +212,12 @@ function AboutMe() {
                                 <li>Java</li>
                             </ul>
                         </div>
-                        <div class="bg-gray-800 bg-opacity-70 rounded-lg shadow-md p-6">
-                            <h3 class="text-xl font-bold mb-2">Other Skills</h3>
-                            <ul class="list-disc list-inside">
-                                <li>Customer Service</li>
-                                <li>Project Mangment</li>
-                                <li>Software Testing</li>
-                                <li>Organization</li>
-                            </ul>
-                        </div>
+                      
+                    </div>
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
 
 
 
