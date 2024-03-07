@@ -43,10 +43,12 @@ function Portfolio() {
           <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden">
           
             <div class="px-6 py-4">
-              <h1 class='bg-slate-900 rounded-md text-center font-bold text-white text-2xl mb-2'>Partner Portal</h1>
-              <p class="text-white text-sm mb-4">Orginally developed for dapper fox as a green field project. Is now being developed as a persnoal project, Its Goal was to keep track of partners allowing them to manage new and existing partners. Aswell as keeping track of there expences and how much they have made in profit. </p>
+              <h1 class='bg-slate-900 rounded-md text-center font-bold text-white text-2xl mb-2'>Blog</h1>
+              <p class="text-white text-sm mb-4">Simple blog, Mostly learning newer versions of next.js </p>
               <div class='grid text-center'>
-             
+                <a className=' bg-slate-900 text-white p-2 border-sky-500 border-2 ' href='https://simple-blog-virid.vercel.app/'>
+                  <i class="fab fa-github mr-2"></i> Blog
+                </a>
 
 
               </div>
