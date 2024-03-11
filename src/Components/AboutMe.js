@@ -131,7 +131,7 @@ function AboutMe() {
 
                         </div>
                     
-                    <div className=" bg-gray-900 bg-opacity-20 ml-2 rounded-md p-2  shadow-md">
+                    <div className="  bg-opacity-20 ml-2 rounded-md p-2 ">
                         {data ? (
                             <>
                                 <div class=" flex justify-end h-fit">
@@ -145,7 +145,7 @@ function AboutMe() {
 
                             </>
                         ) : (
-                            <p>Click on a postion to see more</p>
+                            <p></p>
                         )}
                     </div>
                     </div>
